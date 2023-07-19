@@ -262,7 +262,105 @@ nav li a {
     margin-left: 640px;
 }
 
+/* icon styles */
+.icon-container {
+    display: flex;
+    align-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: -80px 100px 50px 100px;
 
+}
+
+.icon-container img {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+.icon-card {
+    display: flex;
+    gap: 10px;
+    width: 160px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-card:hover {
+    border-radius: 50px;
+    background: #FFF;
+    color: #F948B2;
+    border: 2px solid #F948B2;
+    cursor: pointer;
+}
+
+/* footer styles */
+.footer {
+    background: #0B0223;
+    padding-top: 30px;
+}
+
+.footer-title {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-title h2 {
+    color: #FFF;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.footer-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-option p {
+    color: #FFF;
+}
+
+.footer-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.footer-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-para {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.footer-para p {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.footer-cpyright p {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: .9rem;
+    font-weight: 500;
+}
+.footer-cpyright{
+    padding-bottom: 50px;
+}
 
 
 /* Responsive styles */
