@@ -199,6 +199,24 @@ nav li a {
     padding: 0 30px 20px 0;
 }
 
+.watch-icon {
+    position: relative;
+    bottom: 250px;
+    margin-left: 740px;
+}
+
+.watch-icon a {
+    text-decoration: none;
+    color: #FF42A5;
+}
+
+.watch-icon img {
+    width: 30px;
+    height: 30px;
+    display: block;
+    padding-left: 30px;
+}
+
 .main-img-4 {
     margin-top: 0;
     padding: 0 40px 0 0;
@@ -286,6 +304,8 @@ nav li a {
     height: 50px;
     align-items: center;
     justify-content: center;
+
+    border: 2px solid transparent;
 }
 
 .icon-card:hover {
@@ -358,7 +378,8 @@ nav li a {
     font-size: .9rem;
     font-weight: 500;
 }
-.footer-cpyright{
+
+.footer-cpyright {
     padding-bottom: 50px;
 }
 
