@@ -99,12 +99,16 @@ nav li a {
 .nav-title-g {
     color: #FF42A5;
 }
-
+.nav-right-left{
+    padding-left: 100px;
+    position: relative;
+    left: 65px;
+}
 .nav-right-right {
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     padding: 10px 15px;
-    margin-left: 10px;
+    margin-left: 100px;
 }
 
 /* banner section */
@@ -390,7 +394,11 @@ nav li a {
         width: auto;
     }
 
-    nav {
+    nav,
+    nav ul,
+    .banner, 
+    .main-img-container
+     {
         flex-direction: column;
     }
 
